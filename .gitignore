@@ -1,6 +1,9 @@
-*
-!.gitignore
-!run_tech_talk.bat
-!dansdeals_play/
-!dansdeals_play/**
+__pycache__/
+*.py[cod]
+*.log
+.env
+.venv/
+data/
+playwright_request_log.txt
+.DS_Store
 

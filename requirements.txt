@@ -1,0 +1,6 @@
+scrapy>=2.13
+scrapy-playwright>=0.0.44
+playwright>=1.55
+undetected-chromedriver>=3.5
+playwright-stealth>=2.0.0
+trafilatura>=2.0.0

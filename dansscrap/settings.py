@@ -1,10 +1,10 @@
 from pathlib import Path
 
 
-BOT_NAME = "dansdeals_play"
+BOT_NAME = "dansscrap"
 
-SPIDER_MODULES = ["dansdeals_play.spiders"]
-NEWSPIDER_MODULE = "dansdeals_play.spiders"
+SPIDER_MODULES = ["dansscrap.spiders"]
+NEWSPIDER_MODULE = "dansscrap.spiders"
 
 ROBOTSTXT_OBEY = False
 
@@ -40,10 +40,10 @@ DEFAULT_REQUEST_HEADERS = {
 }
 
 ITEM_PIPELINES = {
-    "dansdeals_play.pipelines.PostStorePipeline": 300,
+    "dansscrap.pipelines.PostStorePipeline": 300,
 }
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "output"
+DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
 FEED_EXPORT_ENCODING = "utf-8"

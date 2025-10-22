@@ -1,5 +1,0 @@
-output/
-__pycache__/
-*.pyc
-playwright_request_log.txt
-
