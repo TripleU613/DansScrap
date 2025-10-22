@@ -1,0 +1,6 @@
+*
+!.gitignore
+!run_tech_talk.bat
+!dansdeals_play/
+!dansdeals_play/**
+
